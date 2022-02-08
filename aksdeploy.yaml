@@ -11,8 +11,10 @@ spec:
       labels:
         app: githubactionscontainer
     spec:
+      replicas: 1
       containers:
         - image: #{acrimageurl}#
+          imagePullPolicy: Always
           name: githubactionscontainer
           resources:
             requests:
