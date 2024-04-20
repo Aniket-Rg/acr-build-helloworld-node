@@ -11,8 +11,8 @@ on:
   workflow_dispatch:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 env:
-  REGISTRY_NAME: k21acr1
-  CLUSTER_NAME: AKS_Cluster
+  REGISTRY_NAME: k21acr11620
+  CLUSTER_NAME: k21aks
   CLUSTER_RESOURCE_GROUP: k21ResourceGroup
   NAMESPACE: default
   SECRET: containersecret
